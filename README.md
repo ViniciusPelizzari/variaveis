@@ -1,1 +1,0 @@
-# variaveis - declaracao e apresentacao
