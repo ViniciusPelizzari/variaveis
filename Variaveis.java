@@ -3,37 +3,78 @@
  */
 public class Variaveis {
 
-    // criando métodos e declarando variáveis - SÃO TODAS VARIÁVEIS DE MÉTODOS
-    public int retNum() {
-        return 33;
+    // criando variáveis - *SÃO TODAS VARIÁVEIS DE CLASSE
+    private int num;
+    private long numMaior;
+    private double vlrvDec;
+    private boolean verif;
+    private String txt;
+    private float vlrDeci;
+    private short vlrDecim;
+    private byte numOne;
+
+    public int getNum() {
+        return num;
     }
 
-    public long retNumMaior() {
-        return 1535486;
+    public void setNum(int num) {
+        this.num = num;
     }
 
-    public double retVlrDec() {
-        return 4.4;
+    public long getNumMaior() {
+        return numMaior;
     }
 
-    public boolean retVerif() {
-        return true;
+    public void setNumMaior(long numMaior) {
+        this.numMaior = numMaior;
     }
 
-    public String retTxt() {
-        return "Teste";
+    public double getVlrvDec() {
+        return vlrvDec;
     }
 
-    public float retVlrDeci() {
-        return 5;
+    public void setVlrvDec(double vlrvDec) {
+        this.vlrvDec = vlrvDec;
     }
 
-    public short retVlrDecim() {
-        return 66;
+    public boolean isVerif() {
+        return verif;
     }
 
-    public byte retNumOne() {
-        return 3;
+    public void setVerif(boolean verif) {
+        this.verif = verif;
+    }
+
+    public String getTxt() {
+        return txt;
+    }
+
+    public void setTxt(String txt) {
+        this.txt = txt;
+    }
+
+    public float getVlrDeci() {
+        return vlrDeci;
+    }
+
+    public void setVlrDeci(float vlrDeci) {
+        this.vlrDeci = vlrDeci;
+    }
+
+    public short getVlrDecim() {
+        return getVlrDecim();
+    }
+
+    public void setVlrDecim(short vlrDecim) {
+        this.vlrDecim = vlrDecim;
+    }
+
+    public byte getNumOne() {
+        return numOne;
+    }
+
+    public void setNumOne(byte numOne) {
+        this.numOne = numOne;
     }
 }
 /*

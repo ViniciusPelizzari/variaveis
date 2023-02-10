@@ -5,14 +5,26 @@ public class Principal {
 
     // imprimindo os exemplos dos tipos de dados
     public static void main(String[] args) {
+        // criando objeto
         Variaveis vari = new Variaveis();
-        System.out.println("int: " + vari.retNum());
-        System.out.println("long: " + vari.retNumMaior());
-        System.out.println("double: " + vari.retVlrDec());
-        System.out.println("boolean: " + vari.retVerif());
-        System.out.println("String: " + vari.retTxt());
-        System.out.println("float" + vari.retVlrDeci());
-        System.out.println("short: " + vari.retVlrDecim());
-        System.out.println("byte: " + vari.retNumOne());
+        // declarando atributos
+        vari.setNum(123);
+        vari.setNumMaior(12548793);
+        vari.setVlrvDec(6.6);
+        vari.setVerif(true);
+        vari.setTxt("Teste");
+        vari.setVlrDeci(6.4f);
+        // vari.setVlrDecim();
+        // vari.setNumOne(getNumOne);
+
+        // imprimindo resultados
+        System.out.println(vari.getNum());
+        System.out.println(vari.getNumMaior());
+        System.out.println(vari.getVlrvDec());
+        System.out.println(vari.isVerif());
+        System.out.println(vari.getTxt());
+        System.out.println(vari.getVlrDeci());
+        // System.out.println(vari.getVlrDecim());
+        // System.out.println(vari.getNumOne());
     }
 }
