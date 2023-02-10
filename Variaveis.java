@@ -3,7 +3,7 @@
  */
 public class Variaveis {
 
-    // criando variáveis
+    // criando variáveis - *SÃO TODAS VARIÁVEIS DE CLASSE
     private int num;
     private long numMaior;
     private double vlrvDec;
@@ -12,8 +12,9 @@ public class Variaveis {
     private float vlrDeci;
     private short vlrDecim;
     private byte numOne;
+    // *******
 
-    // criando métodos e declarando variáveis
+    // criando métodos e declarando variáveis - SÃO TODAS VARIÁVEIS DE MÉTODOS
     public int retNum() {
         return 33;
     }
@@ -46,3 +47,7 @@ public class Variaveis {
         return 3;
     }
 }
+/*
+ * Uma variável de classe, pode ser acessada no escpo da classe e do método, já
+ * uma variável de método/local, só pode ser acessada pelo escopo do método
+ */
