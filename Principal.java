@@ -14,5 +14,6 @@ public class Principal {
         System.out.println("float" + vari.retVlrDeci());
         System.out.println("short: " + vari.retVlrDecim());
         System.out.println("byte: " + vari.retNumOne());
+
     }
 }
