@@ -3,19 +3,6 @@
  */
 public class Variaveis {
 
-    // criando variáveis - *SÃO TODAS VARIÁVEIS DE CLASSE
-    /*
-     * private int num;
-     * private long numMaior;
-     * private double vlrvDec;
-     * private boolean verif;
-     * private String txt;
-     * private float vlrDeci;
-     * private short vlrDecim;
-     * private byte numOne;
-     */
-    // *******
-
     // criando métodos e declarando variáveis - SÃO TODAS VARIÁVEIS DE MÉTODOS
     public int retNum() {
         return 33;
